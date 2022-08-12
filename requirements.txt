@@ -1,0 +1,12 @@
+Django
+
+mozilla-django-oidc
+django-crispy-forms
+django-ajax-datatable
+pytz
+
+django-autosecretkey
+
+# For MySQL
+
+mysqlclient
