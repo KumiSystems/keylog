@@ -24,6 +24,7 @@ class KeyEditView(LoginRequiredMixin, TitleMixin, UpdateView):
     template_name = "frontend/key_edit.html"
     title = "Edit Key"
     fields = ["application", "key", "comment"] 
+    success_url = reverse_lazy("frontend:keys")
 
 
 class KeyCreateView(LoginRequiredMixin, TitleMixin, CreateView):
